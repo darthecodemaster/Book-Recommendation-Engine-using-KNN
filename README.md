@@ -122,22 +122,6 @@ Returns:
   ]
 ]
 ```
-
----
-
-## 🧪 Testing
-
-The notebook includes a built-in test suite that validates:
-
-- ✅ Output is a properly structured list
-- ✅ Correct book title returned as first element
-- ✅ Exactly 5 recommendations returned
-- ✅ Each recommendation has `[title, distance]` format
-- ✅ Distances are valid cosine values in `[0, 1]`
-- ✅ Expected titles appear in results
-
----
-
 ## 📦 Dependencies
 
 ```
